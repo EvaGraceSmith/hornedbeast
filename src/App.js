@@ -3,7 +3,7 @@ import React from "react";
 import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
-import {beast} from './Beast.js';
+import {beastsData} from './Beast.js';
 
 
 class App extends React.Component {
@@ -13,14 +13,10 @@ class App extends React.Component {
       <Header/>
 
       {
-beast.map(beast => (
-  <><h2> {beast.title}</h2><img src={beast.image_url} alt="animal" title="title" /><p>{beast.description}</p></>
+beastsData.map(beast => (
+  <Main title={beast.title} image_url={beast.image_url} description={beast.description}/>
 ))
 }
-      
-<Main title='Unicorn' description= 'white and fluffy'/>
-<Main title='Rhino' description= 'grey and angry'/>
-
 <Footer/>
 </div>
     )
