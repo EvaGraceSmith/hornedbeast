@@ -2,7 +2,7 @@
 
 // class Beast extends React.Component {
 // }
-export const beast =
+export const beastsData =
 [{
   "_id": 1,
   "image_url": "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
@@ -29,34 +29,3 @@ export const beast =
   "keyword": "unicorn",
   "horns": 1
 }];
-
-
-
-
-// let buildBeast = beastArray => {
-//   let beast = {};
-//   for(let i=0; i < beastArray.length; i++){
-//     console.log(beastArray);
-//     let {id, image_url, title, description, keyword, horns} = beastArray[i];
-//   console.log(id, image_url, title, description, keyword, horns);
-//   beast.id=id;
-//   beast.image_url=image_url;
-//   beast.title=title;
-//   beast.description=description;
-//   beast.keyword=keyword;
-//   beast.horns=horns;
-//   };
-//   console.log(beast);
-//   return beast;
-// };
-
-// let beastObject=buildBeast(beastArray);
-// beastObject.forEach((beast)=>{
-    
-//     });
-
-
-
-
-
-// export default Beast;

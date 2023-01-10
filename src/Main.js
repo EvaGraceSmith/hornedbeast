@@ -1,18 +1,19 @@
 import React from 'react';
-
-
+import HornedBeast from './HornedBeast.js'
+import { beastsData } from './Beast.js';
 
 class Main extends React.Component {
-    
-    render(){
-        return(
-            <div>
-                <h2>{this.props.title}</h2>
-                <img src={this.props.image}alt="animal" title="title"/>
-                <p>{this.props.description}</p>
-            </div>
-        )
+    constructor(props) {
+        super(props);
+        this.setState(beastsData);
     }
+    render() {
+        return (
+            <>
+            <HornedBeast title={this.props.title} image_url={this.props.image_url} description={this.props.description} />
+            </>
+        )
+}
 }
 
 export default Main;
