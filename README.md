@@ -76,3 +76,34 @@ https://reactjs.org/docs/components-and-props.html
 https://www.tutorialspoint.com/javascript-convert-an-array-to-key-value-pair
 https://beta.reactjs.org/learn/rendering-lists
 https://evagracesmith-redesigned-space-broccoli-76q7prxvxq7hx7rp.github.dev/
+
+
+Number and name of feature: _______Display Images_________________________
+
+Estimate of time needed to complete: _____15 minutes
+
+Start time: ___8:41am__
+
+Finish time: __8:45am___
+
+Actual time needed to complete: __3 minutes___
+
+Number and name of feature: ___________Allow User to favorite individual Beasts_____________________
+
+Estimate of time needed to complete: __30 minutes___
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
