@@ -4,25 +4,31 @@ import beastsData from './Beast.json';
 import './Main.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
+
 class Main extends React.Component {
     render() {
         console.log("beasts", beastsData);
         return (
             <>
-            <Container>
-            <Row>
-                    {beastsData.map((beast,index)=> (
-                      <Col>
-                        <HornedBeast 
-                        title={beast.title} 
-                        image_url={beast.image_url} 
-                        description={beast.description}
-                        key={index}
-                         />
-                       </Col>
-                    ))}
-                      </Row>
-              </Container>      
+                <Container>
+                    <Row>
+
+                            {beastsData.map((beast, index) => (
+                                <Col>
+                                <article>
+                                    <HornedBeast
+                                        title={beast.title}
+                                        image_url={beast.image_url}
+                                        description={beast.description}
+                                        key={index}
+                                    />
+                                    </article>
+                                </Col>
+                            ))}
+                    
+
+                    </Row>
+                </Container>
             </>
         );
     }
