@@ -92,15 +92,25 @@ Number and name of feature: ___________Allow User to favorite individual Beasts_
 
 Estimate of time needed to complete: __30 minutes___
 
-Start time: _____
+Start time: 7:00____
 
-Finish time: _____
+Finish time: 7:45_____
 
-Actual time needed to complete: _____
+Actual time needed to complete: __45 minutes___
 
-Number and name of feature: ________________________________
+Number and name of feature: _______Bootstrap________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __1 hour___
+
+Start time: 8:00_____
+
+Finish time: _9:30____
+
+Actual time needed to complete: _1.5 hours____
+
+Number and name of feature: ______stretch goal__________________________
+
+Estimate of time needed to complete: _1 hour____
 
 Start time: _____
 
