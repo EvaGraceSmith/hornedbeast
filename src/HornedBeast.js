@@ -33,7 +33,7 @@ return (
                 </Card.Text>
                 <Button onClick={this.handleClickLikes}>Click image to favorite this Creature</Button>
                 <div className="heartWrapper">
-                    <div className="heart">💖 <span>{this.state.likes} Likes!</span></div>
+                    <div className="heart">💖 <span>{this.state.likes} Favorites!</span></div>
 
                 </div>
                 </Card.Body>
