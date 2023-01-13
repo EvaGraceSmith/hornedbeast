@@ -107,3 +107,13 @@ Start time: 8:00_____
 Finish time: _9:30____
 
 Actual time needed to complete: _1.5 hours____
+
+Number and name of feature: ______stretch goal__________________________
+
+Estimate of time needed to complete: _1 hour____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____

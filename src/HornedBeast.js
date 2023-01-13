@@ -1,9 +1,12 @@
 import React from 'react';
 import './HornedBeast.css';
-import Tooltip from 'react-bootstrap/Tooltip';
+// import Tooltip from 'react-bootstrap/Tooltip';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+
+
 
 class HornedBeast extends React.Component {
 
@@ -22,7 +25,9 @@ return (
                <div className='creatureWrapper'>
                <CardGroup>
                <Card style={{ width: '18rem'}}>
+               <div className='bg-image hover-zoom'>
                <Card.Img onClick={this.handleClickLikes} variant="top" src={this.props.image_url}alt={this.props.title}title={this.props.title} />
+               </div>
       <Card.Body>
       <Card.Title>{this.props.title}</Card.Title>
                 {/* <h2></h2> */}
