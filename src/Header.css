@@ -3,4 +3,13 @@
 
 h1{
     font-family: 'Spicy Rice', cursive;
+    color: whitesmoke;
+    padding-top: 65px;
+    
+}
+
+.header{
+    background-image: url('./img/nebula-2253941.jpg');
+    height: 200px;
+
 }

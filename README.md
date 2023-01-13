@@ -117,3 +117,7 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+
+Image by <a href="https://pixabay.com/users/alavays-9498199/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4505114">alavays</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4505114">Pixabay</a>
+Image by <a href="https://pixabay.com/users/g4889166-4889166/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2253941">G4889166</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2253941">Pixabay</a>
+Image by <a href="https://pixabay.com/users/ferraramedia-28670540/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7325913">FerraraMedia</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=7325913">Pixabay</a>
