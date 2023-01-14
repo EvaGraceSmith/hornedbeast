@@ -21,6 +21,7 @@ class HornedBeastcopy extends React.Component {
                     <div className='card'
                         style={{
                             backgroundColor: 'black',
+                            boxShadow: '4 4px 8px 0 rgba(0, 0, 0, 0.2)',
                             height: '500px',
                         }}
                     >

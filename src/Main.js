@@ -9,7 +9,7 @@ class Main extends React.Component {
     render() {
         console.log("beasts", beastsData);
         return (
-            <>
+            <div className='main'>
                 <Container>
                     <Row>
 
@@ -29,7 +29,7 @@ class Main extends React.Component {
 
                     </Row>
                 </Container>
-            </>
+            </div>
         );
     }
 }

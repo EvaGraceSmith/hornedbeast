@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
 
 
 
@@ -25,11 +26,15 @@
   }
 
   h2{
-    background-color: black;
+    font-family: 'Spicy Rice', cursive;
+    margin: 20px;
+    padding-top: 5px;
   }
   
 p{
     background-color: black;
+    color: white;
+    padding-top: 5px;
 }
 
   img{
@@ -39,6 +44,7 @@ p{
   }
 
   .heartWrapper{
+    padding: 5px;
     align-items: end;
   }
 

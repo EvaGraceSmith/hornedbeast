@@ -1,4 +1,5 @@
-main{
+.main{
+    background-image: url('./img/nebula-2253941.jpg');
     background-color: black;
     display: flex;
     flex-wrap:wrap;
