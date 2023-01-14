@@ -1,5 +1,5 @@
 import React from 'react';
-import HornedBeastcopy from './HornedBeastcopy.js'
+import HornedBeast from './HornedBeast.js'
 import beastsData from './Beast.json';
 import './Main.css';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -16,7 +16,7 @@ class Main extends React.Component {
                             {beastsData.map((beast, index) => (
                                 <Col>
                                 <article>
-                                    <HornedBeastcopy
+                                    <HornedBeast
                                         title={beast.title}
                                         image_url={beast.image_url}
                                         description={beast.description}

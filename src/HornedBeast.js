@@ -1,9 +1,9 @@
 import React from 'react';
-import './HornedBeastcopy.css';
+import './HornedBeast.css';
 import Button from 'react-bootstrap/Button';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
-class HornedBeastcopy extends React.Component {
+class HornedBeast extends React.Component {
 
     constructor(props) {
         super(props);
@@ -48,4 +48,4 @@ class HornedBeastcopy extends React.Component {
     }
 }
 
-export default HornedBeastcopy;
+export default HornedBeast;
