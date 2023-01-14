@@ -10,43 +10,43 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 
 class HornedBeast extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state={likes:0 }
+        this.state = { likes: 0 }
     }
-    handleClickLikes = ()=>{
+    handleClickLikes = () => {
         this.setState({
-            likes:this.state.likes + 1,
+            likes: this.state.likes + 1,
         });
     };
-    render(){
-return (
-    <>
-               <div className='creatureWrapper'>
-               <CardGroup>
-               <Card style={{ width: '18rem'}}>
-               <div className='bg-image hover-zoom'>
-               <Card.Img onClick={this.handleClickLikes} variant="top" src={this.props.image_url}alt={this.props.title}title={this.props.title} />
-               </div>
-      <Card.Body>
-      <Card.Title>{this.props.title}</Card.Title>
-                {/* <h2></h2> */}
-                 <div className='imageWrapper'>
-                </div>
-                <Card.Text>
-                <p>{this.props.description}</p>
-                </Card.Text>
-                <Button style={{textTransform: 'none'}} onClick={this.handleClickLikes} className='myButton'>Click image to favorite this Creature</Button>
-                <div className="heartWrapper">
-                    <div className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span></div>
+    render() {
+        return (
+            <>
+                <div className='creatureWrapper'>
+                    <CardGroup>
+                        <Card style={{ width: '18rem' }}>
+                            <div className='bg-image hover-zoom'>
+                                <Card.Img onClick={this.handleClickLikes} variant="top" src={this.props.image_url} alt={this.props.title} title={this.props.title} />
+                            </div>
+                            <Card.Body>
+                                <Card.Title>{this.props.title}</Card.Title>
+                                {/* <h2></h2> */}
+                                <div className='imageWrapper'>
+                                </div>
+                                <Card.Text>
+                                    <p>{this.props.description}</p>
+                                </Card.Text>
+                                <Button style={{ textTransform: 'none' }} onClick={this.handleClickLikes} className='myButton'>Click image to favorite this Creature</Button>
+                                <div className="heartWrapper">
+                                    <div className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span></div>
 
+                                </div>
+                            </Card.Body>
+                        </Card>
+                    </CardGroup>
                 </div>
-                </Card.Body>
-    </Card>
-    </CardGroup>
-            </div>
-    </>
-)
+            </>
+        )
     }
 }
 

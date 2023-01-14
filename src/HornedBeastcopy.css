@@ -1,0 +1,49 @@
+
+
+
+.creatureWrapper{
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    background-color: black;
+    color: rgb(163, 51, 191);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  h2{
+    background-color: black;
+  }
+  
+p{
+    background-color: black;
+}
+
+  img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .heartWrapper{
+    align-items: end;
+  }
+
+  .textWrap{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
