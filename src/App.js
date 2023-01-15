@@ -20,6 +20,9 @@ constructor (props){
 
 }
 
+
+
+
 addBeastEmoji = ()=>{
   this.setState({
     beastEmoji :this.state.beastEmoji + '🦄',
@@ -30,8 +33,9 @@ addBeastEmoji = ()=>{
 handleSelectedBeastOnShow = (beastName) => {
   console.log('handleSelectedBeastOnShow', beastName);
   this.setState({
-    showModal: true,
+    showModal: !this.state.showModal,
     SelectedBeast: beastName
+
   });
 };
 
