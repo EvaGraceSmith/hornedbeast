@@ -15,7 +15,8 @@ class NameForm extends React.Component {
     }
   
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
+        this.props.addSearchBar(this.state.value); 
+      console.log('A name was submitted: ' + this.state.value);
       event.preventDefault();
     }
   

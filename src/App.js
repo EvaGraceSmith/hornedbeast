@@ -19,10 +19,18 @@ constructor (props){
     SelectedBeast:'',
     image_url:'',
     description:'',
+    searchBar:'',
   }
 
 }
 
+
+addSearchBar = (searchString)=>{
+this.setState({
+  searchBar:searchString
+});
+console.log("addSearchBar ", this.state.searchBar);
+};
 
 
 
@@ -40,7 +48,6 @@ handleSelectedBeastOnShow = (beastName, image_url, description) => {
     SelectedBeast: beastName,
     image_url:image_url,
     description:description,
-
   });
 };
 
@@ -53,12 +60,14 @@ handleSelectedBeastOnShow = (beastName, image_url, description) => {
         <Header 
         unicornHead={this.state.beastEmoji}/>
 
-        <NameForm/>
+        <NameForm
+        addSearchBar={this.addSearchBar}/>
 
         <Main 
         addBeastEmoji={this.addbeastEmoji}
         beastData={beastData}
         handleSelectedBeastOnShow={this.handleSelectedBeastOnShow}
+        searchBar={this.state.searchBar}
         />
 
         <SelectedBeast 
