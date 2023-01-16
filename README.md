@@ -7,6 +7,18 @@ https://reactjs.org/docs/components-and-props.html
 https://www.tutorialspoint.com/javascript-convert-an-array-to-key-value-pair
 https://beta.reactjs.org/learn/rendering-lists
 https://evagracesmith-redesigned-space-broccoli-76q7prxvxq7hx7rp.github.dev/
+https://www.npmjs.com/package/react-fuzzy?activeTab=explore
+https://www.educba.com/javascript-search/
+https://www.w3schools.com/js/js_validation.asp
+https://mdbootstrap.com/docs/b4/react/css/hover-effects/#:~:text=React%20Bootstrap%20hover%20effect%20appears,make%20a%20website%20more%20interactive.
+https://reactjs.org/docs/forms.html
+https://reactgo.com/react-select-tag-placeholder/#:~:text=In%20this%20tutorial%2C%20we%20are%20going%20to%20learn,add%20the%20placeholder%20text.%20%3Cinput%20placeholder%3D%22Name%22%2F%3E%20%3Ctextarea%20placeholder%3D%22comment%22%3E%3C%2Ftextarea%3E
+https://stackoverflow.com/questions/177719/case-insensitive-search
+https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+
+
+
+
 
 
 Number and name of feature: _______Display Images_________________________
@@ -63,11 +75,11 @@ Number and name of feature: ___Stretch Goal: Fuzzy Search_______________________
 
 Estimate of time needed to complete: __4 hours___
 
-Start time: _____
+Start time: __6pm___
 
-Finish time: _____
+Finish time: ___9pm__
 
-Actual time needed to complete: _____
+Actual time needed to complete: __3 hrs___
 
 
 
