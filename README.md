@@ -16,6 +16,9 @@ https://reactgo.com/react-select-tag-placeholder/#:~:text=In%20this%20tutorial%2
 https://stackoverflow.com/questions/177719/case-insensitive-search
 https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
+Lab 04
+https://reactjs.org/docs/forms.html
+
 
 
 
@@ -71,6 +74,7 @@ Start time: _9:00 am____
 Finish time: __4:pm___
 
 Actual time needed to complete: __7___
+
 Number and name of feature: ___Stretch Goal: Fuzzy Search_____________________________
 
 Estimate of time needed to complete: __4 hours___
@@ -81,6 +85,16 @@ Finish time: ___9pm__
 
 Actual time needed to complete: __3 hrs___
 
+*************** Lab 04*******************
+Number and name of feature: ___Stretch Goal: Horn Search_____________________________
+
+Estimate of time needed to complete: __1 hour__
+
+Start time: __12pm___
+
+Finish time: ___1:30pm__
+
+Actual time needed to complete: __1.5 hrs___
 
 
 
