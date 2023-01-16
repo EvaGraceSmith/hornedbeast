@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import beastData from './Beast.json';
 import SelectedBeast from './SelectedBeast.js';
+import NameForm from './Search.js';
 
 
 
@@ -51,6 +52,8 @@ handleSelectedBeastOnShow = (beastName, image_url, description) => {
       <div>
         <Header 
         unicornHead={this.state.beastEmoji}/>
+
+        <NameForm/>
 
         <Main 
         addBeastEmoji={this.addbeastEmoji}

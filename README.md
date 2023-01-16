@@ -54,11 +54,11 @@ Number and name of feature: _____Display a Modal___________________________
 
 Estimate of time needed to complete: _3 hours____
 
-Start time: _____
+Start time: _9:00 am____
 
-Finish time: _____
+Finish time: __4:pm___
 
-Actual time needed to complete: _____
+Actual time needed to complete: __7___
 Number and name of feature: ___Stretch Goal: Fuzzy Search_____________________________
 
 Estimate of time needed to complete: __4 hours___
