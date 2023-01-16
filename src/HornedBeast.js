@@ -17,7 +17,7 @@ class HornedBeast extends React.Component {
     };
 
 helpHandleOnShow = () => {
-    this.props.handleSelectedBeastOnShow(this.props.title);
+    this.props.handleSelectedBeastOnShow(this.props.title, this.props.image_url, this.props.description);
     this.handleClickLikes();
 }
 
@@ -38,8 +38,6 @@ helpHandleOnShow = () => {
                         <div className='bg-image hover-zoom'>
                             <img 
                              onClick={this.helpHandleOnShow}
-                            //  {this.handleClickLikes}
-                            // onClick={this.handleClickLikes}
                              src={this.props.image_url} alt={this.props.title} title={this.props.title} />
                         </div>
 

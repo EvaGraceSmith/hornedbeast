@@ -16,6 +16,8 @@ constructor (props){
     beastEmoji:'',
     showModal: false,
     SelectedBeast:'',
+    image_url:'',
+    description:'',
   }
 
 }
@@ -30,11 +32,13 @@ addBeastEmoji = ()=>{
   });
 };
 
-handleSelectedBeastOnShow = (beastName) => {
+handleSelectedBeastOnShow = (beastName, image_url, description) => {
   console.log('handleSelectedBeastOnShow', beastName);
   this.setState({
     showModal: !this.state.showModal,
-    SelectedBeast: beastName
+    SelectedBeast: beastName,
+    image_url:image_url,
+    description:description,
 
   });
 };
@@ -57,6 +61,8 @@ handleSelectedBeastOnShow = (beastName) => {
         <SelectedBeast 
         showModal={this.state.showModal} 
         SelectedBeast={this.state.SelectedBeast} 
+        image_url={this.state.image_url}
+        description={this.state.description}
         // likes={this.state.SelectedBeast.likes} 
         onClick={this.handleSelectedBeastOnShow} />
 
