@@ -4,15 +4,79 @@ import Main from './Main.js';
 import Footer from './Footer.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import beastData from './Beast.json';
+import SelectedBeast from './SelectedBeast.js';
+import NameForm from './Search.js';
+
 
 
 class App extends React.Component {
+constructor (props){
+  super(props);
+  this.state = {
+    beastEmoji:'',
+    showModal: false,
+    SelectedBeast:'',
+    image_url:'',
+    description:'',
+    searchBar:'',
+  }
+
+}
+
+
+addSearchBar = (searchString)=>{
+this.setState({
+  searchBar:searchString
+});
+console.log("addSearchBar ", this.state.searchBar);
+};
+
+
+
+addBeastEmoji = ()=>{
+  this.setState({
+    beastEmoji :this.state.beastEmoji + '🦄',
+
+  });
+};
+
+handleSelectedBeastOnShow = (beastName, image_url, description) => {
+  console.log('handleSelectedBeastOnShow', beastName);
+  this.setState({
+    showModal: !this.state.showModal,
+    SelectedBeast: beastName,
+    image_url:image_url,
+    description:description,
+  });
+};
+
+
+
+
   render() {
     return (
       <div>
-        <Header />
+        <Header 
+        unicornHead={this.state.beastEmoji}/>
 
-        <Main />
+        <NameForm
+        addSearchBar={this.addSearchBar}/>
+
+        <Main 
+        addBeastEmoji={this.addbeastEmoji}
+        beastData={beastData}
+        handleSelectedBeastOnShow={this.handleSelectedBeastOnShow}
+        searchBar={this.state.searchBar}
+        />
+
+        <SelectedBeast 
+        showModal={this.state.showModal} 
+        SelectedBeast={this.state.SelectedBeast} 
+        image_url={this.state.image_url}
+        description={this.state.description}
+        // likes={this.state.SelectedBeast.likes} 
+        onClick={this.handleSelectedBeastOnShow} />
 
         <Footer />
       </div>
