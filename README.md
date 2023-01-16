@@ -63,11 +63,11 @@ Number and name of feature: ___Stretch Goal: Fuzzy Search_______________________
 
 Estimate of time needed to complete: __4 hours___
 
-Start time: _____
+Start time: __6pm___
 
-Finish time: _____
+Finish time: ___9pm__
 
-Actual time needed to complete: _____
+Actual time needed to complete: __3 hrs___
 
 
 
