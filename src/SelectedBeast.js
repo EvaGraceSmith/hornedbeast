@@ -14,11 +14,12 @@ render(){
         <Modal 
         show={this.props.showModal} 
         onHide={this.props.onClick}
-        dialogClassName= {"modal-90w"}
-        className={"bg-grey text-purple"}>
+        dialogClassName= {"modal-90w"}>
+        {/* className={"bg-dark text-white"}> */}
         <Modal.Header closeButton
         className={"bg-dark text-white"}>
-        <Modal.Title>{this.props.SelectedBeast}</Modal.Title>
+        <Modal.Title
+        className='title'>{this.props.SelectedBeast}</Modal.Title>
         </Modal.Header>
         <Modal.Body className={"bg-dark text-white"}>
         <img src={this.props.image_url} alt={this.props.title}/>

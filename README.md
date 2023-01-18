@@ -27,6 +27,7 @@ https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 Lab 04
 https://reactjs.org/docs/forms.html
+https://keithjgrant.com/posts/2017/07/transitioning-gradients/
 
 
 

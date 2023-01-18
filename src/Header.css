@@ -8,6 +8,7 @@
     --brightPink: rgb(236, 64, 122);
     --yellow: rgb(253, 216, 53);
     --aqua: rgb(64, 216, 236);
+    --brightviolet: rgb(160, 81, 221); 
   }
   
   @keyframes background-pan {
@@ -44,7 +45,7 @@
   }
   
     .magic{
-        animation: background-pan 3s linear infinite;
+        animation: background-pan 4s linear infinite;
     background: linear-gradient(
       to right,
       var(--purple),
