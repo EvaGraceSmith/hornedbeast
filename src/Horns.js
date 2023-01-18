@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './Horns.css'
 
 class HornForm extends React.Component {
     constructor(props) {
@@ -22,7 +23,9 @@ class HornForm extends React.Component {
   
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form className='horn'
+        style={{boxShadow: '0px 5px 10px 0px rgba(160, 81, 221,0.7)',}}
+        onSubmit={this.handleSubmit}>
            <select value={this.state.value} onChange={this.handleChange} placeholder="Filter by number of horns.">
            <option value="All">All Horns</option>
             <option value="1">1 Horn</option>
@@ -32,11 +35,14 @@ class HornForm extends React.Component {
           </select>
         
           
-          <input type="submit" value="Submit" />
+          <input 
+          className='view'
+          type="submit" value="View" />
         </form>
       );
     }
   }
+
   
 
 

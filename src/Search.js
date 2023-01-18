@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './Search.css';
 
 class NameForm extends React.Component {
     constructor(props) {
@@ -22,7 +23,8 @@ class NameForm extends React.Component {
   
     render() {
       return (
-        <form onSubmit={this.handleSubmit}>
+        <form className='search'
+        onSubmit={this.handleSubmit}>
           
         
             <input type="text" value={this.state.value} placeholder="Enter Search Here" onChange={this.handleChange} />

@@ -14,7 +14,7 @@
 .card {
     background-color: black;
     color: rgb(163, 51, 191);
-    border: 20px solid black;
+    /* border: 20px solid black; */
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 250px;

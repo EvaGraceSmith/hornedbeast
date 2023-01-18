@@ -31,12 +31,11 @@ helpHandleOnShow = () => {
                     <div className='card'
                         style={{
                             backgroundColor: 'black',
-                            border: "10px solid black",
                             boxShadow: '0px 5px 10px 0px rgba(160, 81, 221,0.7)',
                             height: '400px',
                         }}
                     >
-                        <h2>{this.props.title}</h2>
+
                         <div className='bg-image hover-zoom'>
                             <img 
                             style={{borderRadius: "10px"}}
@@ -45,6 +44,7 @@ helpHandleOnShow = () => {
                         </div>
 
                         <div className='textWrap'>
+                        <h2>{this.props.title}</h2>
                             {/* <h2>{this.props.title}</h2> */}
                             {/* <p
                             style={{height:'90px',}}
