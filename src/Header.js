@@ -5,7 +5,7 @@ class Header extends React.Component {
     render(){
 return (
     <div className='header'>
-    <h1>Keratin-filled Conical Creatures</h1>
+    <h1 className= 'magic' style={{fontSize: "48px"}}>Keratin-filled Conical Creatures</h1>
     </div>
 )
     }
