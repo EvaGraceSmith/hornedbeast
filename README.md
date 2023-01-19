@@ -28,7 +28,8 @@ https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 Lab 04
 https://reactjs.org/docs/forms.html
 https://keithjgrant.com/posts/2017/07/transitioning-gradients/
-
+https://blog.logrocket.com/three-ways-style-css-box-shadow-effects/
+https://javascript.plainenglish.io/css-learn-to-style-react-forms-with-css-2ce72c67c66f?gi=b160efd08dc1
 
 
 

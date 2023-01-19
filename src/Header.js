@@ -9,6 +9,7 @@ return (
         boxShadow: '0px 5px 10px 0px rgba(160, 81, 221,0.7)',
     }}>
     <h1 className= 'magic' style={{fontSize: "48px"}}>Keratin-filled Conical Creatures</h1>
+    <div className='fakeBottom'><p>This is a fake div</p></div>
     </div>
 )
     }

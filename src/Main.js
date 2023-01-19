@@ -16,7 +16,7 @@ class Main extends React.Component {
         });
 
         let hornedBeasts = foundBeasts.filter((newHornBeast, index) => {
-            if (newHornBeast.horns == this.props.numberOfHorns || !this.props.numberOfHorns ||
+            if (newHornBeast.horns === this.props.numberOfHorns || !this.props.numberOfHorns ||
                 this.props.numberOfHorn==="All") { return true; }
         });
 

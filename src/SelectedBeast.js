@@ -21,7 +21,9 @@ render(){
         <Modal.Title
         className='title'>{this.props.SelectedBeast}</Modal.Title>
         </Modal.Header>
-        <Modal.Body className={"bg-dark text-white"}>
+        <Modal.Body className='modalBody' 
+        // style={{"bg-dark text-white"}}
+        >
         <img src={this.props.image_url} alt={this.props.title}/>
         <div>{this.props.description}</div>
         </Modal.Body>

@@ -23,6 +23,8 @@ class NameForm extends React.Component {
   
     render() {
       return (
+        <div>
+          
         <form className='search'
         onSubmit={this.handleSubmit}>
           
@@ -31,6 +33,8 @@ class NameForm extends React.Component {
           
           <input type="submit" value="Search" />
         </form>
+        <div></div>
+        </div>
       );
     }
   }
