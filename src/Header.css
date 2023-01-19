@@ -1,16 +1,72 @@
 
 @import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
 
-h1{
+:root {
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --brightPink: rgb(236, 64, 122);
+    --yellow: rgb(253, 216, 53);
+    --aqua: rgb(64, 216, 236);
+    --brightviolet: rgb(160, 81, 221); 
+  }
+  
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    to {
+      background-position: -200% center;
+    }
+  }
+  
+ 
+
+ .header{
+  /* box-sizing: border-box;
+  border: 1px solid red; */
+    background-color: rgb(10,10,10);
+    display: grid;
+      height: 14vh;
+    margin: 0px;
+    overflow: hidden;
+    place-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(160, 81, 221,0.7);
+  }
+  
+  h1{
     font-family: 'Spicy Rice', cursive;
-    color: whitesmoke;
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    margin: 0px;
+    padding: 20px;
     padding-top: 25px;
+    text-align: center;
     
-}
+  }
+  
+    .magic{
+        animation: background-pan 4s linear infinite;
+    background: linear-gradient(
+      to right,
+      var(--purple),
+      var(--violet),
+      var(--pink),
+      var(--brightPink),
+      var(--yellow),
+      var(--aqua),
+      var(--purple)
+    );
 
-.header{
-    /* background-image: url('./img/nebula-2253941.jpg'); */
-    background-color: black;
-    height: 100px;
 
-}
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+
+
+
+
+

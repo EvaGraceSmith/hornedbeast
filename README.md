@@ -4,13 +4,22 @@
 Sources:
 https://create-react-app.dev/docs/adding-images-fonts-and-files/
 https://reactjs.org/docs/components-and-props.html
+https://emojifinder.com/unicorn
 https://www.tutorialspoint.com/javascript-convert-an-array-to-key-value-pair
 https://beta.reactjs.org/learn/rendering-lists
 https://evagracesmith-redesigned-space-broccoli-76q7prxvxq7hx7rp.github.dev/
 https://www.npmjs.com/package/react-fuzzy?activeTab=explore
 https://www.educba.com/javascript-search/
 https://www.w3schools.com/js/js_validation.asp
+https://mdbootstrap.com/docs/react/getting-started/installation/
 https://mdbootstrap.com/docs/b4/react/css/hover-effects/#:~:text=React%20Bootstrap%20hover%20effect%20appears,make%20a%20website%20more%20interactive.
+https://www.w3schools.com/howto/howto_css_product_card.asp
+
+
+Lab 03
+https://getbootstrap.com/docs/5.0/components/modal/
+https://react-bootstrap.github.io/components/modal/
+https://www.newline.co/@andreeamaco/react-dropdown-tutorial-for-beginners-create-a-dropdown-menu-from-scratch--9831d197
 https://reactjs.org/docs/forms.html
 https://reactgo.com/react-select-tag-placeholder/#:~:text=In%20this%20tutorial%2C%20we%20are%20going%20to%20learn,add%20the%20placeholder%20text.%20%3Cinput%20placeholder%3D%22Name%22%2F%3E%20%3Ctextarea%20placeholder%3D%22comment%22%3E%3C%2Ftextarea%3E
 https://stackoverflow.com/questions/177719/case-insensitive-search
@@ -18,6 +27,7 @@ https://www.w3schools.com/jsref/jsref_obj_regexp.asp
 
 Lab 04
 https://reactjs.org/docs/forms.html
+https://keithjgrant.com/posts/2017/07/transitioning-gradients/
 
 
 
