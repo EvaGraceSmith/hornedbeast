@@ -1,6 +1,7 @@
 import React from 'react';
 import HornedBeast from './HornedBeast.js'
 import './Main.css';
+import SelectedBeast from './SelectedBeast.js';
 import { Col, Container, Row } from 'react-bootstrap';
 
 
@@ -23,17 +24,19 @@ class Main extends React.Component {
 
         let beasts = hornedBeasts.map((newBeast, index) => {
             return (
-                <Col>
-                    <article>
-                        <HornedBeast
-                            title={newBeast.title}
-                            image_url={newBeast.image_url}
-                            description={newBeast.description}
-                            key={index}
-                            addBeastEmoji={this.props.addBeastEmoji}
-                            handleSelectedBeastOnShow={this.props.handleSelectedBeastOnShow} />
-                    </article>
-                </Col>
+                    <>
+                    <Col>
+                        <article>
+                            <HornedBeast
+                                title={newBeast.title}
+                                image_url={newBeast.image_url}
+                                description={newBeast.description}
+                                key={index}
+                                handleClickLikes={this.props.handleClickLikes}
+                                handleSelectedBeastOnShow={this.props.handleSelectedBeastOnShow} />
+                        </article>
+                    </Col></>
+                
             );
         });
 

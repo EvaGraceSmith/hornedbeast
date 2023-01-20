@@ -43,13 +43,6 @@ class App extends React.Component {
   };
 
 
-  addBeastEmoji = () => {
-    this.setState({
-      beastEmoji: this.state.beastEmoji + '🦄',
-
-    });
-  };
-
   handleSelectedBeastOnShow = (beastName, image_url, description) => {
     console.log('handleSelectedBeastOnShow', beastName);
     this.setState({
@@ -89,7 +82,7 @@ class App extends React.Component {
           SelectedBeast={this.state.SelectedBeast}
           image_url={this.state.image_url}
           description={this.state.description}
-          // likes={this.state.SelectedBeast.likes} 
+          likes={this.state.likes} 
           onClick={this.handleSelectedBeastOnShow} />
 
         <Footer />
