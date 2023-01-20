@@ -39,4 +39,38 @@ input{
     font-weight: 600;
     box-shadow: 0px 1px 2px 1px rgba(249, 248, 250, 0.7);
 }
+.view:hover {
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      rgb(103, 58, 183),
+      hsl(179, 100%, 30%)
+    );
+    z-index: 1;
+    transition: opacity 0.5s linear;
+    color:white;
+  }
 
+
+
+.view::before {
+    position: absolute;
+    border-radius: 5px;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to left,
+      rgb(103, 58, 183),
+      rgb(236, 64, 122)
+  
+    );
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+  }
+  .view:hover::before {
+    opacity: 1;
+  }

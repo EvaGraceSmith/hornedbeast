@@ -9,15 +9,14 @@ class Main extends React.Component {
 
 
         let foundBeasts = this.props.beastData.filter((newBeast, index) => {
-            console.log('beastData?', this.props.searchBar);
             if (newBeast.title.toLowerCase().match(this.props.searchBar.toLowerCase()) != null || !this.props.searchBar) {
                 return true;
             }
         });
 
         let hornedBeasts = foundBeasts.filter((newHornBeast, index) => {
-            if (newHornBeast.horns === this.props.numberOfHorns || !this.props.numberOfHorns ||
-                this.props.numberOfHorn==="All") { return true; }
+            if (newHornBeast.horns == this.props.numberOfHorns || !this.props.numberOfHorns ||
+                this.props.numberOfHorns == "All") { return true; }
         });
 
 

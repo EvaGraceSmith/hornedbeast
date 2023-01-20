@@ -69,12 +69,12 @@ class App extends React.Component {
         <Header
           unicornHead={this.state.beastEmoji} />
 
-          <NameForm
-            addSearchBar={this.addSearchBar} />
+        <NameForm
+          addSearchBar={this.addSearchBar} />
 
-          <HornForm
-            hornDropdown={this.hornDropdown} />
-    
+        <HornForm
+          hornDropdown={this.hornDropdown} />
+
         <Main
           addBeastEmoji={this.addbeastEmoji}
           beastData={beastData}

@@ -4,3 +4,15 @@
     padding: 5px;
     
 }
+
+.searchButton:hover {
+    position: relative;
+    background-image: linear-gradient(
+      to right,
+      rgb(103, 58, 183),
+      rgb(236, 64, 122)
+    );
+    z-index: 1;
+    transition: opacity 0.5s linear;
+    color:white;
+  }
