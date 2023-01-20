@@ -51,7 +51,7 @@ helpHandleOnShow = () => {
                                 backgroundColor: "rgb(163, 51, 191)",
                                 border: "none"
                                  }} 
-                                 onClick={this.handleClickLikes} 
+                                 onClick={this.helpHandleOnShow} 
                                  className='myButton'>Click to 💖 & learn more!</Button>
 
                             <div className="heartWrapper">
