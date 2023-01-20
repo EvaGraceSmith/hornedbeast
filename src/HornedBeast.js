@@ -16,10 +16,10 @@ class HornedBeast extends React.Component {
 
     };
 
-helpHandleOnShow = () => {
-    this.props.handleSelectedBeastOnShow(this.props.title, this.props.image_url, this.props.description);
-    this.handleClickLikes();
-}
+    helpHandleOnShow = () => {
+        this.props.handleSelectedBeastOnShow(this.props.title, this.props.image_url, this.props.description);
+        this.handleClickLikes();
+    }
 
 
 
@@ -37,29 +37,27 @@ helpHandleOnShow = () => {
                     >
 
                         <div className='bg-image hover-zoom'>
-                            <img 
-                            style={{borderRadius: "10px"}}
-                             onClick={this.helpHandleOnShow}
-                             src={this.props.image_url} alt={this.props.title} title={this.props.title} />
+                            <img
+                                style={{ borderRadius: "10px" }}
+                                onClick={this.helpHandleOnShow}
+                                src={this.props.image_url} alt={this.props.title} title={this.props.title} />
                         </div>
 
                         <div className='textWrap'>
-                        <h2>{this.props.title}</h2>
-                            {/* <h2>{this.props.title}</h2> */}
-                            {/* <p
-                            style={{height:'90px',}}
-                            >{this.props.description}</p> */}
-                            <Button 
-                            style={{ 
-                                textTransform: 'none',
-                                backgroundColor: "rgb(163, 51, 191)",
-                                border: "none"
-                                 }} 
-                                 onClick={this.handleClickLikes} 
-                                 className='myButton'>Click image to learn more!</Button>
+                            <h2>{this.props.title}</h2>
+                            <Button
+                                style={{
+                                    textTransform: 'none',
+                                    backgroundColor: "rgb(163, 51, 191)",
+                                    border: "none"
+                                }}
+                                onClick={this.helpHandleOnShow}
+                                className='myButton'>Click to 💖 & learn more!</Button>
 
                             <div className="heartWrapper">
-                                <div className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span>
+                                <div
+                                    onClick={this.handleClickLikes}
+                                    className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span>
                                 </div>
                             </div>
                         </div>
