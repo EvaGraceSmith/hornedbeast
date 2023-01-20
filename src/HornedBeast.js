@@ -45,10 +45,6 @@ helpHandleOnShow = () => {
 
                         <div className='textWrap'>
                         <h2>{this.props.title}</h2>
-                            {/* <h2>{this.props.title}</h2> */}
-                            {/* <p
-                            style={{height:'90px',}}
-                            >{this.props.description}</p> */}
                             <Button 
                             style={{ 
                                 textTransform: 'none',
@@ -56,10 +52,12 @@ helpHandleOnShow = () => {
                                 border: "none"
                                  }} 
                                  onClick={this.handleClickLikes} 
-                                 className='myButton'>Click image to learn more!</Button>
+                                 className='myButton'>Click to 💖 & learn more!</Button>
 
                             <div className="heartWrapper">
-                                <div className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span>
+                                <div 
+                                onClick={this.handleClickLikes} 
+                                className="heart"><span>💖</span> <span>{this.state.likes} Favorites!</span>
                                 </div>
                             </div>
                         </div>
